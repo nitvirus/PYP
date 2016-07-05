@@ -15,7 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Doctors"></activity>
+        <activity android:name=".hotels"
+            android:label="@string/title_activity_hot"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".doctors"
+            android:label="@string/title_activity_doc"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".police"
+            android:label="@string/title_activity_pol"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
-
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
 </manifest>
